@@ -16,7 +16,7 @@ void main() async {
   await Hive.openBox<NotesModel>('notes');
 
   runApp(App());
-}
+} 
 
 class App extends StatelessWidget {
   const App({super.key});
